@@ -30,8 +30,10 @@
      - You now have access to the VM through the command line and can navigate around, install software and create and execute files.
 
 2. Sign up for Datadog
-  ![sign up](./datadog-images/section-1/signup-for-datadog.png)
-  3) Install the Agent on VM and get it reporting metrics
+   - Signing up for Datadog is super easy. Here is a screenshot of the form.
+   - ![sign up](./datadog-images/section-1/signup-for-datadog.png)
+   
+3. Install the Agent on VM and get it reporting metrics
 
 ## Section 2: Collecting Metrics
 

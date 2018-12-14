@@ -15,8 +15,11 @@
 
 ### Section 1: Prerequisites - Setup the environment
   1) Spin up a Linux Virtual Machine using Vagrant and Virtual Box
+    1a - Install VirtualBox
+    
+    1b - Install Vagrant
   2) Sign up for Datadog
-  ![sign up](./datadog-images/01a-signup-for-datadog.png) 
+  ![sign up](./datadog-images/section-1/01a-signup-for-datadog.png)
   3) Install the Agent on VM and get it reporting metrics
 
 ### Section 2: Collecting Metrics

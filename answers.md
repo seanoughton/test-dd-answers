@@ -180,7 +180,7 @@
 
    - Now, you set your alert conditions, in my case I set the threshold levels and also to alert if there is no data for 10 minutes.
    - ![alert-conditions-1](./datadog-images/section-4/05-set-alert-conditions.png)
-   - ![alert-conditions-2](./datadog-images/section-4/05-set-alert-conditions.png)
+   - ![alert-conditions-2](./datadog-images/section-4/06-set-alert-conditions.png)
 
 2. Configure the Monitor's message
    - Send you an email whenever the monitor triggers.

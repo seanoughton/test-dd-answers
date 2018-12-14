@@ -44,7 +44,11 @@
      - After choosing your OS, you are given clear and easy instructions on how to install the Datadog Agent through your command line
      - Here is a screenshot of the instructions
        - ![install ubuntu](./datadog-images/section-1/ubuntu-install-instructions.png)
-
+     - After running this in the command line of your VM, you should get two confirmations that the agent installed.
+       - In the command line you should see something like this:
+         - ![agent success cli](./datadog-images/section-1/data-dog-agent-success-command-line.png)
+       - In the DataDog Web Portal you should see something like this:
+         - - ![agent success web portal](./datadog-images/section-1/data-dog-agent-web-portal-success-ws.png)
 
 ## Section 2: Collecting Metrics
 

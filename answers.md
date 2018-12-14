@@ -66,7 +66,7 @@
    - In order to add tags, you have to edit the datadog.yaml file which is located on your VM in the conf.d directory. The path on Linux is: /etc/datadog-agent/datadog.yaml
    - In the datadog.yaml file, you add tags as key value pairs, an example would be `tags: <KEY_1>:<VALUE_1>, <KEY_2>:<VALUE_2>, <KEY_3>:<VALUE_3>`
    - Here is a screenshot of how to add the tags in the datadog.yaml file.
-   - ![change yaml](./datadog-images/section-2/changing-tags-in-the-yaml-file.png)
+   - ![change yaml](./datadog-images/section-2/add-tags-yaml-file.png)
    - You can see the tags in the DataDog web portal in the Host Map Page which you can get to either through the infrastructure menu by selecting Host Map or by clicking on Expanded Host map
    - Here is a screenshot of that:
    - ![get to host map](./datadog-images/section-2/how-to-get-to-host-map.png)

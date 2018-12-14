@@ -22,6 +22,7 @@ Link to [install-VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
     1b) Install Vagrant
 Link to [install-Vagrant](https://www.vagrantup.com/intro/getting-started/install.html)
+
     * After Installing Vagrant, you create a Vagrant file in the directory where you want to create your VM. You do this with the following command:  $ vagrant init ubuntu/xenial64 .
     This clones the appropriate box, in my case an Ubuntu Linux 16.04 box.
     * Once the Vagrant file has been created properly, you can spin up your VM with the command vagrant up

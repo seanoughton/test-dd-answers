@@ -115,6 +115,7 @@
      - Here is a screenshot of that:
      - ![my_check.yaml](./datadog-images/section-2/custom-agent-check-working.png)
 4. Bonus: Can you change the collection interval without modifying the Python check file?
+   - Yes. You can modify the collection interval in the .yaml file as shown above.
 
 
 ## Section 3: Visualizing Data

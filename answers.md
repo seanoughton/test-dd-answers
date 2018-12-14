@@ -147,12 +147,15 @@
    - After running this script, the timeboard is created and you have access to it through the Datadog web portal UI.
    - You can find it in your Dashboard List.
    - ![dashboard-menu](./datadog-images/section-3/dashboard-menu.png)
-   - ![dashboard-menu](./datadog-images/section-3/dashboard-list.png)
-   - ![dashboard-menu](./datadog-images/section-3/test-timeboard-1.png)
+   - ![dashboard-list](./datadog-images/section-3/dashboard-list.png)
+   - ![test-timeboard](./datadog-images/section-3/test-timeboard-1.png)
 
    - I Set the Timeboard's timeframe to the last 5 minutes and took a snapshot of this graph and used the @ notation to send it to myself.
    - Here is a screenshot of that:
-   - ![dashboard-menu](./datadog-images/section-3/timeboard-snapshot.png)
+   - ![snapshot](./datadog-images/section-3/timeboard-snapshot.png)
+
+   - Here is a screenshot of the email I received:
+   - ![email](./datadog-images/section-3/timeboard-email-2.png)
 
    - Bonus Question: What is the Anomaly graph displaying?
      - The Anomaly graph identifies strange behavior in a single metric based on the metric’s past performance. The algorithms it can use are: basic, agile, robust and adaptive

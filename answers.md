@@ -225,8 +225,19 @@
 
 
 
-
-
 ## Section 5: Collecting APM Data
+
+1. Given the following Flask app (or any Python/Ruby/Go app of your choice) instrument this using Datadog’s APM solution:
+   - I used this Flask app and ran it from my VM
+   - I instrumented the application by using ddtrace-run
+   - After running the app, I navigated to each url
+   - Here is a screenshot of a Dashboard with both APM and Infrastructure metrics
+   - ![apm dashboard](./datadog-images/section-4/apm dashboard.png)
+2. Bonus Question: What is the difference between a Service and a Resource?
+   - A service is a set of processes that do the same job. For instance, a simple web application may consist of two services: A single webapp service and a single database service.
+   - A Resource is a particular action for a service. For a web application: some examples might be a URL, such as /user/about or a route in a MVC framework like Ruby. For a SQL database: a resource is the query itself, such as SELECT * FROM users WHERE id = ?.
+
+
+
 
 ## Section 6: Creative Use for Datadog Question

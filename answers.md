@@ -17,6 +17,7 @@
   1) Spin up a Linux Virtual Machine using Vagrant and Virtual Box
 
     1a) Install VirtualBox
+    Link to [install-virtualbox](https://www.virtualbox.org/wiki/Downloads)
   ![VirtualBox](./datadog-images/section-1/install-virtual-box.png)
 
 

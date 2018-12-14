@@ -165,6 +165,69 @@
 
 
 ## Section 4: Monitoring Data
+1. Create a Monitor
+   - In order to create a new monitor, you click on the create monitor button on the Welcome Page
+   - ![create_monitor](./datadog-images/section-4/01-create-monitor.png)
+
+   - Then you select the monitor type, in this case, I chose Metric.
+   - ![monitor-type](./datadog-images/section-4/02-select-monitor-type.png)
+
+   - After that, you begin to configure the monitor by first selecting the Detection Method, in this case I chose Threshold
+   - ![detection-method](./datadog-images/section-4/03-choose-detection-method.png)
+
+   - Next, you choose the metric you want to monitor, in my case, I chose my custom metric
+   - ![define-metric](./datadog-images/section-4/04-define-metric.png)
+
+   - Now, you set your alert conditions, in my case I set the threshold levels and also to alert if there is no data for 10 minutes.
+   - ![alert-conditions-1](./datadog-images/section-4/05-set-alert-conditions.png)
+   - ![alert-conditions-2](./datadog-images/section-4/05-set-alert-conditions.png)
+
+2. Configure the Monitor's message
+   - Send you an email whenever the monitor triggers.
+   - After the alert conditions are set, you can configure the message that will be sent when an alert is raised. You can use variables wrapped in double brackets to set what the message will be under different conditions.
+   - # indicates to run the message if the condition is true
+   - ^ indicates to run the message if the condition is false
+   - an exampe is `{{#is_warning}}`
+   - I set the message to display different information depending on if the monitor was an `Alert`, `Warning`, or there was a `No Data` state
+   - I also used the variables to include the metric value that caused the monitor to trigger and host ip when the Monitor triggers an Alert state
+   - Here is a screenshot of that configuration:
+   - ![email-config-1](./datadog-images/section-4/07-email-configuration.png)
+
+   - Finally, you configure who will be notified:
+   - ![notify-team](./datadog-images/section-4/09-notify-team.png)
+
+   - And here is a screenshot of the email notification I received:
+   - ![email-notification](./datadog-images/section-4/10-email-screenshot.png)
+
+3. Bonus Question: Set up two scheduled downtimes for this monitor:
+   - One that silences it from 7pm to 9am daily on M-F
+   - In order to schedule downtime for your monitors, you need to click on the Manage Downtime tab
+   - ![manage-downtime-tab](./datadog-images/section-4/11-manage-downtime.png)
+
+   - And then click on `Schedule Downtime`
+   - ![schedule-downtime](./datadog-images/section-4/12-manage-downtime.png)
+
+   - Then you determine what to silence and set up a schedule for that. You can choose a one time schedule or  a recurring schedule.
+   - ![schedule-downtime](./datadog-images/section-4/13-choose-what-to-silence.png)
+   - ![schedule-downtime](./datadog-images/section-4/14-downtime-schedule.png)
+   - ![schedule-downtime](./datadog-images/section-4/15-downtime-schedule.png)
+
+   - Then you configure the downtime notification:
+   - ![downtime-message](./datadog-images/section-4/16-downtime-message.png)
+
+   - This is a screenshot of the email notification:
+   - ![18-downtime-email](./datadog-images/section-4/18-downtime-email.png)
+
+   - I used the same instructions to create a second downtime that silences the monitor all day on Sat-Sun.
+   - Here are the steps in screenshots:
+   - ![19-second-downtime](./datadog-images/section-4/19-second-downtime.png)
+   - ![20-second-downtime-schedule](./datadog-images/section-4/20-second-downtime-schedule.png)
+   - ![21-second-downtime-message](./datadog-images/section-4/21-second-downtime-message.png)
+   - ![23-second-downtime-email-confirmation](./datadog-images/section-4/23-second-downtime-email-confirmation.png)
+
+
+
+
 
 ## Section 5: Collecting APM Data
 

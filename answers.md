@@ -11,9 +11,12 @@
 5) Link to [Datadog-Docs](https://docs.datadoghq.com/)
 
 
-* The Screenshots of dashboards are inline with the answers to the questions.
+* All Screenshots are inline with the answers to the questions.
 
 ### Section 1: Prerequisites - Setup the environment
+  1) Spin up a Linux Virtual Machine using Vagrant and Virtual Box
+  2) Sign up for Datadog
+  3) Install the Agent on VM and get it reporting metrics
 
 ### Section 2: Collecting Metrics
 

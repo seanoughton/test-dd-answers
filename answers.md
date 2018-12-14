@@ -15,6 +15,7 @@
 
 ### Section 1: Prerequisites - Setup the environment
   1) Spin up a Linux Virtual Machine using Vagrant and Virtual Box
+  
     1a) Install VirtualBox
 
 

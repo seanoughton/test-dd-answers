@@ -15,8 +15,9 @@
 
 ### Section 1: Prerequisites - Setup the environment
   1) Spin up a Linux Virtual Machine using Vagrant and Virtual Box
-  
+
     1a) Install VirtualBox
+    ![VirtualBox](./datadog-images/section-1/install-virtual-box.png)
 
 
   2) Sign up for Datadog

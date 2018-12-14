@@ -97,8 +97,23 @@
     - ![integeration-06](./datadog-images/section-2/integration-06.png)
 
 3. Create a custom Agent check which submits a metric named my_metric
-   - submits metric with random value between 0 and 1000
-   - change collection interval to submit once every 45 seconds
+   - To create a custom Agent check, there is a set of instructions in the DataDog docs under Developer Tools
+   - Here is a screenshot of that:
+   - ![custom-agent-check-docs-01](./datadog-images/section-2/custom-agent-check-docs-01.png)
+   - Custom agent checks are best for collecting metrics from custom apps.
+   - In order to create a custom check we must create two files:
+     - a .yaml file located `etc/datadog-agent/conf.d` directory
+     - and a .py file located `etc/datadog-agent/checks.d` directory
+     - These files names MUST MATCH (`my_check.yaml`, `my_check.py` for example) or the process will not work.
+     - The yaml file contains at a minimum a sequence called instances, that contains at least one mapping. An example would be: `instances: [{}]`
+     - The python file for the check must inherit from the AgentCheck Class
+     - Every custom check class needs a check method, inside of which we can use any of the built-in DogStatd methods. For this example, I am using the gauge method
+     - Here is a screenshot of the two files I created:
+     - ![my_check.py](./datadog-images/section-2/mycheck-py.png)
+     - ![my_check.yaml](./datadog-images/section-2/mycheck-yaml.png)
+     - After you create these two files, you must restart the datadog agent for them to start sending metrics. You can then run the agent info request  and see if our check is running:
+     - Here is a screenshot of that:
+     - ![my_check.yaml](./datadog-images/section-2/custom-agent-check-working.png)
 4. Bonus: Can you change the collection interval without modifying the Python check file?
 
 

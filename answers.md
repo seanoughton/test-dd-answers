@@ -77,8 +77,25 @@
    -
    - Here is a screenshot of my host and it's tags on the Host Map page
    - ![host and tags](./datadog-images/section-2/tags-ws.png)
-   
+
 2. Install a database and Datadog Integration
+   - Intalling a Database on a Vagrant VM is can be done in many ways. I used this set of instructions for installing mySQL on Linux.
+     - Link to [Install-Database](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04)
+   - After the database is installed, you can install the Datadog integration by following the instructions in the web portal
+   - You can either use the link in the Get started drop down or click on the puzzle icon and select Integrations from the drop down. Here is a screenshot of that:
+   - ![integeration-01](./datadog-images/section-2/interval-01.png)
+
+   - Select an integration from the choices. I chose MySQL
+   - Datadog provides easy to follow instructions on how to set up the integration. Here are Screenshots of how to do that:
+   - ![integeration-03](./datadog-images/section-2/interval-03.png)
+   - ![integeration-04](./datadog-images/section-2/interval-04.png)
+   - ![integeration-05](./datadog-images/section-2/interval-05.png)
+
+   - After you have created a datadog user for your MySQL server, and granted the appropriate privileges, you configure the agent to connect to your database server in the mysql.yaml file located at conf.d/mysql.yaml.
+   - Restart the agent and run the info command to make sure that the integration checks passed.
+   - If everything is working properly, you should see this in the Datadog web portal
+    - ![integeration-06](./datadog-images/section-2/interval-06.png)
+
 3. Create a custom Agent check which submits a metric named my_metric
    - submits metric with random value between 0 and 1000
    - change collection interval to submit once every 45 seconds

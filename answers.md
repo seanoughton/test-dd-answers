@@ -133,7 +133,7 @@
    - In order to run the script, you need both an API key and an Application key.
    - You can find both of those keys under the Integration Menu if you select
    API's.
-   - ![api-menu](./datadog-images/section-3/integration-menu.png)
+   - ![api-menu](./datadog-images/section-3/integrations-menu.png)
 
    - Here you can generate both API and Application Keys:
    - ![api-menu](./datadog-images/section-3/API-keys.png)
@@ -153,7 +153,7 @@
    - I Set the Timeboard's timeframe to the last 5 minutes and took a snapshot of this graph and used the @ notation to send it to myself.
    - Here is a screenshot of that:
    - ![dashboard-menu](./datadog-images/section-3/timeboard-snapshot.png)
-   
+
    - Bonus Question: What is the Anomaly graph displaying?
      - The Anomaly graph identifies strange behavior in a single metric based on the metric’s past performance. The algorithms it can use are: basic, agile, robust and adaptive
      - Here is a link to more information about it:

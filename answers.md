@@ -119,6 +119,47 @@
 
 
 ## Section 3: Visualizing Data
+1. Utilize the Datadog API to create a Timeboard.
+   - In order to use the DataDog API to create a Timeboard, you must create a script that will send a POST request to the API
+   - The instructions for how to do this can be found if you navigate to the Datadog help page, and then click `API's for Developers`. This has documentation on how to use the API. If you click on Timeboards, you can get the code to create a script that will use the API to Create, Update and Delete Timeboards.
+   - Here is a screenshot of that page:
+
+   - ![create_timeboard](./datadog-images/section-3/create-timeboard-docs.png)
+
+   - I created a Python script, that imported the Datadog api module for making API calls.
+   - Here is a screenshot of that script.
+   - ![create_timeboard](./datadog-images/section-3/create-timeboard-script.png)
+
+   - In order to run the script, you need both an API key and an Application key.
+   - You can find both of those keys under the Integration Menu if you select
+   API's.
+   - ![api-menu](./datadog-images/section-3/integration-menu.png)
+
+   - Here you can generate both API and Application Keys:
+   - ![api-menu](./datadog-images/section-3/API-keys.png)
+
+   - Once you have these keys, you can copy and paste them into your script and then run the script to create a timeboard based on the variables in the script.
+   - To specify specific metrics that you want on the timeboard, you use the requests variable, with key value pairs representing the request query and the type of metric you want on the board.
+   - For this challenge, I needed to create a timeboard that has my custom metric scoped over my host, any metric from the Integration on my Database with the anomaly function applied, and my custom metric with the rollup function applied to sum up all the points for the past hour into one bucket.
+   - Therefore, I used the following JSON in the script:
+   - ![json](./datadog-images/section-3/json.png)
+
+   - After running this script, the timeboard is created and you have access to it through the Datadog web portal UI.
+   - You can find it in your Dashboard List.
+   - ![dashboard-menu](./datadog-images/section-3/dashboard-menu.png)
+   - ![dashboard-menu](./datadog-images/section-3/dashboard-list.png)
+   - ![dashboard-menu](./datadog-images/section-3/test-timeboard-1.png)
+
+   - I Set the Timeboard's timeframe to the last 5 minutes and took a snapshot of this graph and used the @ notation to send it to myself.
+   - Here is a screenshot of that:
+   - ![dashboard-menu](./datadog-images/section-3/timeboard-snapshot.png)
+   
+   - Bonus Question: What is the Anomaly graph displaying?
+     - The Anomaly graph identifies strange behavior in a single metric based on the metric’s past performance. The algorithms it can use are: basic, agile, robust and adaptive
+     - Here is a link to more information about it:
+     - - Link to [Anomaly Graph](https://www.datadoghq.com/blog/introducing-anomaly-detection-datadog/)
+
+
 
 ## Section 4: Monitoring Data
 

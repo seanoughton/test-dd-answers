@@ -21,13 +21,13 @@
      - ![VirtualBox](./datadog-images/section-1/install-virtual-box.png)
 
    - Install Vagrant
-    - Link to [Install-Vagrant](https://www.vagrantup.com/intro/getting-started/install.html)
+     - Link to [Install-Vagrant](https://www.vagrantup.com/intro/getting-started/install.html)
 
-   - After Installing Vagrant, you create a Vagrant file in the directory where you want to create your VM. You do this with the following command:  $ vagrant init ubuntu/xenial64 .
+     - After Installing Vagrant, you create a Vagrant file in the directory where you want to create your VM. You do this with the following command:  $ vagrant init ubuntu/xenial64 .
     This clones the appropriate box, in my case an Ubuntu Linux 16.04 box.
-   - Once the Vagrant file has been created properly, you can spin up your VM with the command vagrant up
-   - After the VM has spun up, you can enter the machine with the command vagrant ssh
-   - You now have access to the VM through the command line and can navigate around, install software and create and execute files
+     - Once the Vagrant file has been created properly, you can spin up your VM with the command vagrant up
+     - After the VM has spun up, you can enter the machine with the command vagrant ssh
+     - You now have access to the VM through the command line and can navigate around, install software and create and execute files
 
 2. Sign up for Datadog
   ![sign up](./datadog-images/section-1/signup-for-datadog.png)

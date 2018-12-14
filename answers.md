@@ -59,8 +59,9 @@
    - To add tags to the Agent config file, you can get instructions from the DataDog Documentation
    - You can get to the Docs by clicking on the question mark on the homepage and selecting Resources from the dropdown menu
    - On the Resources page select Documentation and this will take you to the Documentation Page
-   - ![resources page](./datadog-images/section-2/resources-page-cropped.png)
+     - ![resources page](./datadog-images/section-2/resources-page-cropped.png)
    - On the Documentation Page, Click on Tagging and then Assigning Tags
+     - ![assign tags](./datadog-images/section-2/assigning-tags-docs.png)
    - Here is a Link to those Docs: [DataDog-Tag-Docs](https://docs.datadoghq.com/tagging/assigning_tags/?tab=go)
    - In order to add tags, you have to edit the datadog.yaml file which is located on your VM in the conf.d directory. The path on Linux is: /etc/datadog-agent/datadog.yaml
    - In the datadog.yaml file, you add tags as key value pairs, an example would be `tags: <KEY_1>:<VALUE_1>, <KEY_2>:<VALUE_2>, <KEY_3>:<VALUE_3>`

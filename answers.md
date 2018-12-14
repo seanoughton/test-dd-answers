@@ -1,12 +1,12 @@
 ### Links
 
-1) Link to [host-dashboard](https://app.datadoghq.com/dash/host/348127436?live=true&page=0&is_auto=false&from_ts=1507153521073&to_ts=1507157121073&tile_size=m)
+1) Link to [host-dashboard](https://app.datadoghq.com/dash/host/732018690?live=true&page=0&tile_size=m&is_auto=false&from_ts=1544806380000&to_ts=1544809980000)
 
-2) Link to [mySQL-clone-dashboard](https://app.datadoghq.com/dash/373135/mysql---clone?live=true&page=0&is_auto=false&from_ts=1507153698644&to_ts=1507157298644&tile_size=m)
+2) Link to [mySQL-integration](https://app.datadoghq.com/dash/integration/12/mysql---overview?tile_size=m&page=0&is_auto=false&from_ts=1544806500000&to_ts=1544810100000&live=true)
 
-3) Link to [Host-Map](https://app.datadoghq.com/infrastructure/map?fillby=avg%3Acpuutilization&sizeby=avg%3Anometric&groupby=none&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=false&palette=green_to_orange&paletteflip=false)
+3) Link to [Host-Map](https://app.datadoghq.com/infrastructure/map?fillby=avg%3Acpuutilization&sizeby=avg%3Anometric&groupby=availability-zone&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=true&palette=green_to_orange&paletteflip=false&node_type=host)
 
-4) Link to [Monitors](https://app.datadoghq.com/monitors/manage)
+4) Link to [My Monitors](https://app.datadoghq.com/monitors/manage)
 
 5) Link to [Datadog-Docs](https://docs.datadoghq.com/)
 

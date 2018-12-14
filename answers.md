@@ -55,6 +55,29 @@
 
 
 ## Section 2: Collecting Metrics
+1. Add tags in the Agent config file
+   - To add tags to the Agent config file, you can get instructions from the DataDog Documentation
+   - You can get to the Docs by clicking on the question mark on the homepage and selecting Resources from the dropdown menu
+   - On the Resources page select Documentation and this will take you to the Documentation Page
+   - ![resources page](./datadog-images/section-2/resources-page.png)
+   - On the Documentation Page, Click on Tagging and then Assigning Tags
+   - Here is a Link to those Docs: [DataDog-Tag-Docs](https://docs.datadoghq.com/tagging/assigning_tags/?tab=go)
+   - In order to add tags, you have to edit the datadog.yaml file which is located on your VM in the conf.d directory. The path on Linux is: /etc/datadog-agent/datadog.yaml
+   - In the datadog.yaml file, you add tags as key value pairs, an example would be `tags: <KEY_1>:<VALUE_1>, <KEY_2>:<VALUE_2>, <KEY_3>:<VALUE_3>`
+   - Here is a screenshot of how to add the tags in the datadog.yaml file.
+   - ![change yaml](./datadog-images/section-2/changing-tags-in-the-yaml-file.png)
+   - You can see the tags in the DataDog web portal in the Host Map Page which you can get to either through the infrastructure menu by selecting Host Map or by clicking on Expanded Host map
+   - Here is a screenshot of that:
+   - ![get to host map](./datadog-images/section-2/how-to-get-to-host-map.png)
+   -
+   - Here is a screenshot of my host and it's tags on the Host Map page
+   - ![host and tags](./datadog-images/section-2/tags-ws.png)
+2. Install a database and Datadog Integration
+3. Create a custom Agent check which submits a metric named my_metric
+   - submits metric with random value between 0 and 1000
+   - change collection interval to submit once every 45 seconds
+4. Bonus: Can you change the collection interval without modifying the Python check file?
+
 
 ## Section 3: Visualizing Data
 

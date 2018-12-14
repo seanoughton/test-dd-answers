@@ -13,4 +13,14 @@
 
 * The Screenshots of dashboards are inline with the answers to the questions.
 
-### Section 1: Collecting Metrics 
+### Section 1: Prerequisites - Setup the environment
+
+### Section 2: Collecting Metrics
+
+### Section 3: Visualizing Data
+
+### Section 4: Monitoring Data
+
+### Section 5: Collecting APM Data
+
+### Section 6: Creative Use for Datadog Question

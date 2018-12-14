@@ -182,9 +182,8 @@
    - ![alert-conditions-2](./datadog-images/section-4/06-set-alert-conditions.png)
 
 2. Configure the Monitor's message
-   - Send you an email whenever the monitor triggers.
-   - After the alert conditions are set, you can configure the message that will be sent when an alert is raised. You can use variables wrapped in double brackets to set what the message will be under different conditions.
-   - # indicates to run the message if the condition is true
+   - After the alert conditions are set, you can configure the message that will be sent. You can use variables wrapped in double brackets to set what the message will be under different conditions.
+   - `#` indicates to run the message if the condition is true
    - ^ indicates to run the message if the condition is false
    - an exampe is `{{#is_warning}}`
    - I set the message to display different information depending on if the monitor was an `Alert`, `Warning`, or there was a `No Data` state
@@ -192,7 +191,7 @@
    - Here is a screenshot of that configuration:
    - ![email-config-1](./datadog-images/section-4/07-email-configuration.png)
 
-   - Finally, you configure who will be notified:
+   - Finally, I configured who will be notified:
    - ![notify-team](./datadog-images/section-4/09-notify-team.png)
 
    - And here is a screenshot of the email notification I received:

@@ -11,12 +11,12 @@
 5. Link to [Datadog-Docs](https://docs.datadoghq.com/)
 
 
-* All Screenshots are inline with the answers to the questions.
+*** All Screenshots are inline with the answers to the questions. ***
 
 ## Section 1: Prerequisites - Setup the environment
-1) Spin up a Linux Virtual Machine using Vagrant and Virtual Box
+1. Spin up a Linux Virtual Machine using Vagrant and Virtual Box
 
-1a Install VirtualBox
+  - Install VirtualBox
 Link to [install-VirtualBox](https://www.virtualbox.org/wiki/Downloads)
   ![VirtualBox](./datadog-images/section-1/install-virtual-box.png)
 

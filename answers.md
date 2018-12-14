@@ -33,13 +33,17 @@
    - Signing up for Datadog is super easy. Here is a screenshot of the form.
    - ![sign up](./datadog-images/section-1/signup-for-datadog.png)
 
-3. Install the Agent on VM and get it reporting metrics
+3. Install the Agent on your VM and get it reporting metrics
    - To install the Datadog Agent on your VM
      - Datadog makes this really easy by giving you a link to the instructions in the Getting Started Dropdown Menu
      - There is a link there for Install an Agent
        - Link to [Install-Agent](https://app.datadoghq.com/account/settings#agent)
      - Here is a screenshot of the Installation Instructions:
        - ![install agent](./datadog-images/section-1/how-to-install-datadog-01.png)
+     - Here you choose your OS, mine is Ubuntu.
+     - After choosing your OS, you are given clear and easy instructions on how to install the Datadog Agent through your command line
+     - Here is a screenshot of the instructions
+       - ![install ubuntu](./datadog-images/section-1/ubuntu-install-instructions.png)
 
 
 ## Section 2: Collecting Metrics

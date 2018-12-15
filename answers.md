@@ -35,7 +35,7 @@
 
 3. Install the Agent on your VM and get it reporting metrics
    - To install the Datadog Agent on your VM
-     - Datadog makes this really easy by giving you a link to the instructions in the Getting Started Dropdown Menu
+     - Datadog makes this really easy by giving you a link to the instructions in the ** Getting Started Dropdown Menu **
      - There is a link there for Install an Agent
        - Link to [Install-Agent](https://app.datadoghq.com/account/settings#agent)
      - Here is a screenshot of the Installation Instructions:

@@ -242,3 +242,4 @@
 
 
 ## Section 6: Creative Use for Datadog Question
+1. I would use datadog to monitor an app for Santa’s Naughty and Nice list. Parent’s could sign up for the app/platform and keep a daily record of whether their kids have been naughty or nice.  You could use Datadog to monitor the traffic and use integrations like AWS to spin up new instances of the app as heavier traffic came in. You could monitor the app’s traffic and use the time series data to see when most parents were submitting data.  You could use Datadog to Monitor, troubleshoot, and optimize application performance. By monitoring the performance of the cpu’s and the databases, you could make changes to the code to limit expensive database queries and find faster ways to interact with the database and the user. An in the end, you could create a Dashboard and share it around .. even with Santa.

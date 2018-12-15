@@ -45,15 +45,23 @@
      - Here is a screenshot of the instructions
        - ![install ubuntu](./datadog-images/section-1/ubuntu-install-instructions.png)
 
-       
+
      - After running this in the command line of your VM, you should get two confirmations that the agent installed.
        - In the command line you should see something like this:
          - ![agent success cli](./datadog-images/section-1/data-dog-agent-success-command-line.png)
+
+
        - In the DataDog Web Portal you should see something like this:
          - ![agent success web portal](./datadog-images/section-1/data-dog-agent-web-portal-success-ws.png)
+
+
      - Finally, in the DataDog Web Portal you should see that you have a host sending data and your first metrics
        - ![host map](./datadog-images/section-1/host-reporting-data.png)
+
+
        - ![first metric](./datadog-images/section-1/first-datadog-metric.png)
+
+       
 
 
 ## Section 2: Collecting Metrics

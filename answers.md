@@ -36,7 +36,7 @@
 3. Install the Agent on your VM and get it reporting metrics
    - To install the Datadog Agent on your VM
      - Datadog makes this really easy by giving you a link to the instructions in the **Getting Started Dropdown Menu**
-     - There is a link there for Install an Agent
+     - There is a link there for **Install an Agent**
        - Link to [Install-Agent](https://app.datadoghq.com/account/settings#agent)
      - Here is a screenshot of the Installation Instructions:
        - ![install agent](./datadog-images/section-1/how-to-install-datadog-01.png)
@@ -44,6 +44,8 @@
      - After choosing your OS, you are given clear and easy instructions on how to install the Datadog Agent through your command line
      - Here is a screenshot of the instructions
        - ![install ubuntu](./datadog-images/section-1/ubuntu-install-instructions.png)
+
+       
      - After running this in the command line of your VM, you should get two confirmations that the agent installed.
        - In the command line you should see something like this:
          - ![agent success cli](./datadog-images/section-1/data-dog-agent-success-command-line.png)

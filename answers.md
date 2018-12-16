@@ -67,8 +67,8 @@
 
 ## Section 2: Collecting Metrics
 1. **Add tags in the Agent config file**
-   - To add tags to the Agent config file, you can get instructions from the DataDog Documentation
-   - You can get to the Docs by clicking on the **question mark** on the homepage and selecting **Resources** from the Dropdown menu
+   - To add tags to the **Agent config file**, you can get instructions from the DataDog Documentation
+   - You can get to the Docs by clicking on the **Question mark** on the homepage and selecting **Resources** from the Dropdown menu
    - On the **Resources** page select **Documentation** and this will take you to the **Documentation Page**
 
      - ![resources page](./datadog-images/section-2/resources-page-cropped.png)
@@ -188,8 +188,8 @@
    - ![email](./datadog-images/section-3/timeboard-email-2.png)
 
    - **Bonus Question: What is the Anomaly graph displaying?**
-     - The **Anomaly graph** identifies strange behavior in a single metric based on the metric’s past performance. The algorithms it can use are: basic, agile, robust and adaptive
-     - Here is a link to more information about it:
+     - The **Anomaly graph** identifies strange behavior in a single metric based on the metric’s past performance. The algorithms it can use are: basic, agile, robust and adaptive.
+     - Here is a link to more information about the Anomaly Graph:
      - - Link to [Anomaly Graph](https://www.datadoghq.com/blog/introducing-anomaly-detection-datadog/)
 
 
@@ -199,7 +199,7 @@
    - In order to create a new monitor, you click on the **Create Monitor** button on the **Welcome Page**
    - ![create_monitor](./datadog-images/section-4/01-create-monitor.png)
 
-   - Then you select the *Monitor type**, in this case, I chose **Metric**.
+   - Then you select the **Monitor type**, in this case, I chose **Metric**.
    - ![monitor-type](./datadog-images/section-4/02-select-monitor-type.png)
 
    - After that, you begin to configure the monitor by first selecting the **Detection Method**, in this case I chose **Threshold**
@@ -216,8 +216,8 @@
    - `#` Indicates to run the message if the condition is **true**
    - `^` Indicates to run the message if the condition is **false**
    - An example is `{{#is_warning}}`
-   - I set the message to display different information depending on if the Monitor was an `Alert`, `Warning`, or there was a `No Data` state
-   - I also used the variables to include the **metric value** that caused the Monitor to trigger and **host ip** when the Monitor triggers an Alert state
+   - I set the message to display different information depending on if the Monitor was an `Alert`, `Warning`, or there was a `No Data` state.
+   - I also used the variables to include the **metric value** that caused the Monitor to trigger and **host ip** when the Monitor triggers an Alert state.
 
    - Here is a screenshot of that configuration:
    - ![email-config-1](./datadog-images/section-4/07-email-configuration.png)
@@ -273,4 +273,5 @@
 
 
 ## Section 6: Creative Use for Datadog Question
-1. I would use Datadog to monitor an app for Santa’s Naughty and Nice list. Parent’s could sign up for the app/platform and keep a daily record of whether their kids have been naughty or nice.  You could use Datadog to monitor the traffic and use integrations like AWS to spin up new instances of the app as heavier traffic came in. You could monitor the app’s traffic and use the time series data to see when most parents were submitting data.  You could use Datadog to Monitor, troubleshoot, and optimize application performance. By monitoring the performance of the cpu’s and the databases, you could make changes to the code to limit expensive database queries and find faster ways to interact with the database and the user. An in the end, you could create a Dashboard and share it around .. even with Santa.
+
+I would use Datadog to monitor an app for Santa’s Naughty and Nice list. Parent’s could sign up for the app/platform and keep a daily record of whether their kids have been naughty or nice.  You could use Datadog to monitor the traffic and use integrations like AWS to spin up new instances of the app as heavier traffic came in. You could monitor the app’s traffic and use the time series data to see when most parents were submitting data.  You could use Datadog to Monitor, troubleshoot, and optimize application performance. By monitoring the performance of the cpu’s and the databases, you could make changes to the code to limit expensive database queries and find faster ways to interact with the database and the user. An in the end, you could create a Dashboard and share it around .. even with Santa. ;)
